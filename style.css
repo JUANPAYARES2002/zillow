@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+}
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.hider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left, .nav-right {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-left li, .nav-right li {
+    margin: 0 10px;
+}
+
+.nav-left a, .nav-right a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.logo img {
+    height: 25px; 
+}
+
+.hider:hover {
+    color: #0074e4; 
+}
+
+.SECCION-2{
+    display: flex;
+    gap: 2rem;
+}
+#casas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow-y: scroll;
+    max-height: 600px;
+    
+}
+.cartas{
+    width: 22rem;
+
+}
+.cartas img{
+    width: 100%;
+}
+.descripcion{
+    display: flex;
+}
+.contorno{
+    box-shadow: -10px 0px 100px 1px black;
+    border: 1px solid gray;
+}
+#popup{
+    position: fixed;
+    top: 150px;
+    left: 500px;
+}
